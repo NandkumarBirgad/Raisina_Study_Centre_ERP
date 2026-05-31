@@ -1,7 +1,7 @@
 import asyncHandler from "express-async-handler";
 import { sendSuccess, sendError } from "../utils/responseHandler.js";
 import { resolveCenterScope } from "../utils/accessControl.js";
-import Logbook from "../models/Logbook.js";
+import Logbook from "../models/LogBook.js";
 import Transaction from "../models/Transaction.js";
 import Student from "../models/Student.js";
 import Mess from "../models/Mess.js";
